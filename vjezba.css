@@ -28,7 +28,6 @@ body{
     font-size: 0.6cm;
     text-align: center;
     align-content: center;
-
 }
 a{
     text-decoration: none;
@@ -37,41 +36,15 @@ a{
     text-align: center;
 }
 .prviHome{
-    text-align: left;
-    display:inline;
-    margin: 40%;
-    width: auto;
-    align-content: center;
-
+    text-align: center;
+    padding: 15%;
 }
 #glavnaSlika{
-    width: 50%;
-    height:50%;
-    padding:1cm;
-    border: 8px solid white;
-    margin-top: 20%;
-    margin-left: 70%;
-    border-radius: 3cm;
-}
-#glavniTekst{
-    align-content: center;
-    align-self: center;
-}
-#glavniNaslov{
-    text-align: center;
-    font-size: xxx-large;
-    text-decoration: 8px underline;
-    color:aliceblue;
-    margin: 0;
-    font-style: italic;
-    padding-bottom: 0.5cm;
-}
-#sporedniNaslov{
-    text-align: center;
-    color:rgb(247, 66, 1);
-    margin: 0;
-    font-style: italic;
-    margin-right: 15%;
+    width:25%;
+    height: 25%;
+    border: 7px solid white;
+    border-radius: 30%;
+    padding: 5%;
 }
 .halo{
     width: 20%;
@@ -86,23 +59,7 @@ a{
     width: 80%;
     margin: auto;
 }
-.Info2{
-    background-image: url("office.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    border-radius: 1cm;
-    width: 80%;
-    margin: auto;
-}
-#drugiNaslov3{
-    color:rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.778);
-    padding: 0.5cm;
-    text-align: center;
-    margin:0%;
-    border-radius: 3cm;
-}
-#drugiNaslov{
+#Naslov{
     color:rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.778);
     padding: 0.5cm;
@@ -114,24 +71,10 @@ a{
     font-size: 0.7cm;
     text-align: left;
     margin-right:50%;
-    
     padding:1cm;
     border-radius: 1cm;
     background-color: rgba(255, 255, 255, 0.778);
     line-height: 1.8;
-}
-#informacije2{
-    font-size: 0.7cm;
-    text-align: left;
-    margin-left:50%;
-    padding:1cm;
-    border-radius: 1cm;
-    background-color: rgba(255, 255, 255, 0.778);
-    line-height: 1.8;
-}
-#tabela{
-    margin-top: 0;
-    margin-bottom: 2.5cm;
 }
 .projekt{
     display: inline;
@@ -158,14 +101,13 @@ a{
     border-radius: 3cm;
     font-size: 0.7cm;
 }
-#tabela2{
+#tabela{
     width:auto;
     margin: auto;
     text-align: center;
     margin-top: 1cm;
 }
 .detaljiApp{
-
     background-color: rgba(255, 255, 255, 0.719);
     font-size: 0.6cm;
     border-radius: 1cm;
@@ -227,6 +169,19 @@ footer{
     background-color: rgba(255, 255, 255, 0.719);
     border-radius: 3cm;
     padding: 0.2cm;
+}
+@media only screen and (max-width: 768px){
+    body{
+        width: 200%;
+    }
+    #navOtac li{
+        display: block;
+        font-size: xx-large;
+    }
+    #glavnaSlika{
+        margin-top: 70%;
+    }
+    
 }
 
 
