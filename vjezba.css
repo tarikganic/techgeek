@@ -1,0 +1,232 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url("mainPozadina.jpg");
+    margin: 0;
+}
+#glava{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#navOtac{
+    text-align: center;
+    width: 77%;
+    position:fixed;
+    padding: 0.6cm;
+    display:block;
+    background-color: rgba(162, 200, 239, 0.477);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom-left-radius: 3cm;
+    border-bottom-right-radius: 3cm;
+}
+#navigacija{
+    display:inline;
+    padding: 4%;
+    font-size: 0.6cm;
+    text-align: center;
+    align-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.prviHome{
+    text-align: left;
+    display:inline;
+    margin: 40%;
+    width: auto;
+    align-content: center;
+
+}
+#glavnaSlika{
+    width: 50%;
+    height:50%;
+    padding:1cm;
+    border: 8px solid white;
+    margin-top: 20%;
+    margin-left: 70%;
+    border-radius: 3cm;
+}
+#glavniTekst{
+    align-content: center;
+    align-self: center;
+}
+#glavniNaslov{
+    text-align: center;
+    font-size: xxx-large;
+    text-decoration: 8px underline;
+    color:aliceblue;
+    margin: 0;
+    font-style: italic;
+    padding-bottom: 0.5cm;
+}
+#sporedniNaslov{
+    text-align: center;
+    color:rgb(247, 66, 1);
+    margin: 0;
+    font-style: italic;
+    margin-right: 15%;
+}
+.halo{
+    width: 20%;
+    height: 20%;
+    margin-right: 10%;
+}
+.Info{
+    background-image: url("zgrada.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 1cm;
+    width: 80%;
+    margin: auto;
+}
+.Info2{
+    background-image: url("office.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 1cm;
+    width: 80%;
+    margin: auto;
+}
+#drugiNaslov3{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.778);
+    padding: 0.5cm;
+    text-align: center;
+    margin:0%;
+    border-radius: 3cm;
+}
+#drugiNaslov{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.778);
+    padding: 0.5cm;
+    text-align: center;
+    margin:0%;
+    border-radius: 3cm;
+}
+#informacije{
+    font-size: 0.7cm;
+    text-align: left;
+    margin-right:50%;
+    
+    padding:1cm;
+    border-radius: 1cm;
+    background-color: rgba(255, 255, 255, 0.778);
+    line-height: 1.8;
+}
+#informacije2{
+    font-size: 0.7cm;
+    text-align: left;
+    margin-left:50%;
+    padding:1cm;
+    border-radius: 1cm;
+    background-color: rgba(255, 255, 255, 0.778);
+    line-height: 1.8;
+}
+#tabela{
+    margin-top: 0;
+    margin-bottom: 2.5cm;
+}
+.projekt{
+    display: inline;
+    width: 30%;
+    height: 10cm;
+    background-color: rgba(255, 255, 255, 0.666);
+    text-align: center;
+}
+#slikaProjekta1{
+    width: 4.5cm;
+    height: 4.5cm;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 3cm;
+}
+#drugiNaslov2{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.778);
+    padding: 0.5cm;
+    width: 5cm;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3cm;
+    font-size: 0.7cm;
+}
+#tabela2{
+    width:auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 1cm;
+}
+.detaljiApp{
+
+    background-color: rgba(255, 255, 255, 0.719);
+    font-size: 0.6cm;
+    border-radius: 1cm;
+    margin:0;
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding: 0.5cm;
+    line-height: 1.3;
+}
+#Projects{
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+}
+.dugmic{
+    border: none;
+    border-radius: 1cm;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.5cm;
+    cursor: pointer; 
+    background-color: rgb(76, 142, 242);
+}
+#contact{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.logoKontakta{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 0.5cm;
+}
+.insta{
+    display:inline-block;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    border-radius: 3cm;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+}
+#kontakt{
+    background-color: white;
+}
+footer{
+    background-color: white;
+    text-align: right;
+}
+#a{
+    font-size: larger;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 3cm;
+    padding: 0.2cm;
+}
+
+
