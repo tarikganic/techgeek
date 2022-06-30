@@ -99,7 +99,7 @@ body{
     font-style: italic;
     text-align: center;
     justify-content: center;
-
+    display: flex;
 }
 #informacije{
     padding: 1cm;
@@ -191,4 +191,46 @@ body{
 footer{
     text-align: right;
     background-color: white;
+}
+@media only screen and (max-width: 600px){
+    body{ 
+        width:fit-content;
+    }
+    .prviHome{
+        
+        flex-direction: column-reverse;
+    }
+    #naslov{
+        width: 100%;
+    }
+    #tekstZgrada{
+        flex-direction: column;
+        align-items: center;
+    }
+    .zgrada{
+        width: 95%;
+        margin-left: 0;
+        border-radius: 2cm;
+    }
+    .Info{
+        width: 95%;
+    }
+    #containter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projekti{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .insta{
+        width: 40%;
+        margin-top:5%;
+    }
+    #naslov{
+        margin-top: 50%;
+    }
+    #glava{
+        width: 80%;
+    }
 }
